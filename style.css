@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* estilos generales*/
+body{
+    font-family: 'Dancing Script', cursive;
+}
+header{
+    background-color:rgba(19,173,242,255);
+    padding: 30px;
+    border-bottom: 5px solid rgb(14, 76, 222);
+    text-align: center;
+   
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+text-decoration: none;
+}
+main{
+    padding: 100px;
+}
+#productos{
+    margin-top: 0px;
+    background-color: rgba(19,173,242,255);
+}
+.producto{
+    border: 3px solid rgb(23, 10, 10);
+    display: inline-block;
+    margin: 15px;
+    text-align: center; 
+    padding: 15px;
+}
+.producto button{
+    width: 150px;
+    background-color:rgba(19,173,242,255);
+}
+
+
+.producto img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 15px;
+    margin: auto;
+
+}
+footer{
+    text-align: center;
+    padding: 10;
+    background-color: rgb(13, 171, 223);
+    border-top: 2px solid rgb(15, 223, 223);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
